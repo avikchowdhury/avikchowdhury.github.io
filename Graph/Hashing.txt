@@ -1,0 +1,18 @@
+Hashing:
+Hashing is also a common method of accessing data records. Consider, for example, a list of names:
+John Smith
+Sarah Jones
+Roger Adams
+To create an index, called a hash table,for these records, you would apply a formula to each name to produce a 
+unique numeric value. So you might get something like:
+1345873 John smith
+3097905 Sarah Jones
+4060964 Roger Adams
+Then to search for the record containing Sarah Jones,you just need to reapply the formula, which directly yields the 
+index key to the record. This is much more efficient than searching through all the records till the matching record is found.
+
+Hash Function:
+A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes. 
+
+Hash Table:
+In computing, a hash table (hash map) is a data structure used to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
